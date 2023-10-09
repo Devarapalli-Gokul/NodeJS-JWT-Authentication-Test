@@ -29,7 +29,17 @@ let users = [
         id: 1,
         username: 'Gokul',
         password: '1234'
-    }
+    },
+    {
+        id: 2,
+        username: 'luffy',
+        password: '0000'
+    },
+    {
+        id: 3,
+        username: 'zoro',
+        password: '1111'
+    },
 ]
 app.post('/api/login',(req,res) => {
     const  { username , password }= req.body;
